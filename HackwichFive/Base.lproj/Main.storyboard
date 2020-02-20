@@ -35,7 +35,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mhf-QB-Sy8">
                                 <rect key="frame" x="83" y="404" width="188" height="162"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="ButtonPressed"/>
                                 <connections>
                                     <action selector="ButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="P1f-gz-742"/>
                                 </connections>
@@ -46,6 +46,7 @@
                     </view>
                     <connections>
                         <outlet property="BottomLabel" destination="GdK-Hc-rVH" id="2JU-sj-AUB"/>
+                        <outlet property="ButtonLabel" destination="Mhf-QB-Sy8" id="fdS-VV-Sme"/>
                         <outlet property="TopLabel" destination="o2r-Zx-mrm" id="EAr-Rl-ARG"/>
                     </connections>
                 </viewController>
